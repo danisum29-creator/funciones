@@ -14,7 +14,7 @@
         }
         static int Multiplicar(int a, int b)
         {
-            int producto = a + b;
+            int producto = a * b;
             return producto;
         }
     }
