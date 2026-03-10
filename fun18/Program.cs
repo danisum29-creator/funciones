@@ -7,10 +7,13 @@
             int a, b, c; 
 
             Console.WriteLine("ingrese 3 numeros");
-           MenorDeTres(a, b, c);
+            a = int.Parse(Console.ReadLine());
+            b= int.Parse(Console.ReadLine());
+            c= int.Parse(Console.ReadLine());
+            MenorDeTres(a, b, c);
 
-          
 
+            Console.WriteLine("el menor es: " + MenorDeTres(a, b, c));
         }
         static int MenorDeTres(int a, int b, int c)
         {
@@ -33,8 +36,19 @@
             {
                 menor = c;
             }
-
-
+            else if(a==b&&a<c)
+            {
+                menor = a; 
+            }
+            else if(a==c&& a<b )
+            {
+                menor = a;
+            }
+            else if(b==c&&b<a)
+            {
+                menor = b;
+            }
+            return menor;
         }
     }
 }
