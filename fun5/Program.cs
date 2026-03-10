@@ -9,7 +9,7 @@
 
         static void MostrarMenu()
         {
-            Console.WriteLine("Opcion 1.\nOpcion 2.\nOpcion 3.");
+            Console.WriteLine("---MENU---\nOpcion 1.\nOpcion 2.\nOpcion 3.");
         }
 
     }
