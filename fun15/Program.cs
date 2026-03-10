@@ -8,10 +8,17 @@
             Console.WriteLine("ingrese un numero");
             num = int.Parse(Console.ReadLine());
             EsPar(num);
+            if (EsPar(num) == true)
+            {
+                Console.WriteLine("el numero es par");
 
-
+            }
+            else
+            {
+                Console.WriteLine("el numero es impar ");
+            }
         }
-        static int EsPar(int num)
+        static bool EsPar(int num)
         {
         bool par = false;
             if ( num%2==0)
