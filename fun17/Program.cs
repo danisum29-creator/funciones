@@ -8,7 +8,7 @@
 
             Console.WriteLine("ingrese el primer numero");
             n1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("ingrese el segundo nuemro")
+            Console.WriteLine("ingrese el segundo nuemro");
             Console.WriteLine();
             n2 = int.Parse(Console.ReadLine());
 
