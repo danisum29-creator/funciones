@@ -12,6 +12,7 @@
             string nombre;
             Console.WriteLine("ingrese un nombre");
             nombre = Console.ReadLine();
+            Console.WriteLine("Hola " + nombre);
         }
     }
 }
