@@ -1,8 +1,8 @@
 ﻿using System; 
 
-class program
+class Program
 {
-    static void main()
+    static void Main()
     {
         MostrarMensaje(); 
     }

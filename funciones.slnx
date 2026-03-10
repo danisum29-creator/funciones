@@ -2,4 +2,6 @@
   <Project Path="fun1/fun1.csproj" />
   <Project Path="fun2/fun2.csproj" />
   <Project Path="fun3/fun3.csproj" />
+  <Project Path="fun4/fun4.csproj" />
+  <Project Path="fun5/fun5.csproj" />
 </Solution>
