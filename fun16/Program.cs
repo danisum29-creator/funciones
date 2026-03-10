@@ -14,7 +14,7 @@
             }
             else
             {
-                Console.WriteLine("el numero "+n + " no es positivo")
+                Console.WriteLine("el numero " + n + " no es positivo");
             }
         }
 
