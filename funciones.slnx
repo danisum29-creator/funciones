@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="fun1/fun1.csproj" />
+  <Project Path="fun10/fun10.csproj" />
   <Project Path="fun2/fun2.csproj" />
   <Project Path="fun3/fun3.csproj" />
   <Project Path="fun4/fun4.csproj" />
@@ -7,4 +8,5 @@
   <Project Path="fun6/fun6.csproj" />
   <Project Path="fun7/fun7.csproj" />
   <Project Path="fun8/fun8.csproj" />
+  <Project Path="fun9/fun9.csproj" />
 </Solution>
