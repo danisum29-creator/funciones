@@ -15,6 +15,7 @@
             int cont = 1;
             cont = texto.Length;
             return cont;
+
         }
     }
 }
