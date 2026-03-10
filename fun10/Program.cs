@@ -9,12 +9,17 @@
             Console.WriteLine("ingrese un texto"); 
             texto = Console.ReadLine();
             Console.WriteLine("ingrese la cantidad de veces para repetirlo");
-            cantidad = int.Parse(texto);
-
+            cantidad = int.Parse(Console.ReadLine());
+            ImprimirRepetido(cantidad, texto);
         }
 
-        static int ImprimirRepetido()
+        static void ImprimirRepetido(int cantidad, string texto)
         {
+            for (int i = 1; i <= cantidad; i++)
+            {
+                Console.WriteLine(texto);
+            }
+
 
         }
     }
